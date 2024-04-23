@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="off.css" />
+    <title>Mel17</title>
+  </head>
+  <body>
+    <audio src="" id="mscFondo" autoplay loop></audio>
+    <audio src="" id="clickEffect" autoplay></audio>
+
+    <h1>Sigue El Patron</h1>
+
+    <div class="counter">
+      <p>Nivel</p>
+      <p><span id="counter-control">1</span>/10</p>
+    </div>
+
+    <div class="BoxGame" id="boxGame">
+      <div class="itemBox item-box-1 btnClick" id="itemBox1"></div>
+      <div class="itemBox item-box-2 btnClick" id="itemBox2"></div>
+      <div class="itemBox item-box-3 btnClick" id="itemBox3"></div>
+      <div class="itemBox item-box-4 btnClick" id="itemBox4"></div>
+    </div>
+
+    <p class="subtitle off" id="subtitle">Espera un Poco...</p>
+    <p class="subtitle off" id="subtitle2">¿Necesitas Volver a Verlo?</p>
+
+    <button class="btn-start" id="btn-start">INICIAR</button>
+    <button class="btn-start off" id="btn-back">OTRA VEZ</button>
+
+    <button class="btn-start test off" id="btn-test">PROBAR</button>
+
+    <div class="winbox off" id="winboxWin">
+      <p>
+        Muy bien Hecho!!!, hora de la siguiente ronda, a ver si puedes jejeje.
+      </p>
+      <button class="btn-next" id="btnWinboxWin">Siguiente Nivel</button>
+    </div>
+    <div class="winbox off" id="winboxLose">
+      <p>Chale que mal, Pero se que tu PUEDES!!!, inténtalo otra vez.</p>
+      <button class="btn-next" id="btnWinBoxLose">Volver a Intentar</button>
+    </div>
+
+    <div class="winbox off" id="winboxFinal">
+      <p>Has ganado. Puedes elegir</p>
+      <button class="btn-next" id="btnWinBoxResFinal">Volver a Jugar</button>
+      <button class="btn-next">
+        <a href="https://www.youtube.com/watch?v=_z7YOAVF79U" target="_blank">Ver Algo más</a>
+      </button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
