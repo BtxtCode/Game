@@ -36,7 +36,7 @@ let copySerieTemp;
 
 let testSerie = [0, 0, 0, 0];
 
-let level = 1;
+let level = 9;
 levelControl.innerHTML = level;
 
 function serieControl() {
